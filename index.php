@@ -69,3 +69,9 @@ function genreAge ($age, $genre){
 }
 
 echo genreAge(46, "femme");
+
+// ex 8
+function number3 ($a = 2, $b = 5, $c = 8){
+    return $a + $b + $c;
+}
+
